@@ -1,0 +1,214 @@
+/* This is for <body> styling only */
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  background-color:  rgb(200, 214, 229);
+  font-size: 100%;
+}
+
+/*this is for <h1> styling only */
+h1 {
+  color: #0b1934;
+  font-family: "Sacramento", cursive;
+  margin:  50px auto 0 auto;
+  font-size: 5.625rem;
+}
+
+/* This is for <h2> styling only */
+h2 {
+  color: #0b1934;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+/* This is for <h3> styling only */
+h3 {
+  color: #0b1934;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#menu {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  width: 8em;
+  margin-top: -2.5em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 2125;
+  position: absolute;
+  left: 10px;
+  background-color: rgb(200, 214, 229);
+  border: 1px solid #555;
+
+overflow: auto;
+
+}
+
+li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li a {
+  display:block;
+color: #0b1934;
+padding: 8px 16px;
+text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+.active {
+  background-color: #1f66b5;
+  color: WHITE;
+}
+
+.style2 {
+
+  border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/* This is for styling the top container */
+.top-container {
+  position: relative;
+  background-repeat: no-repeat;
+  width: 100%;
+  }
+
+  .text {
+    position:absolute;
+    bottom: 500px;
+    right: 850px;
+
+  }
+
+/* This is for sytling the second container */
+.second-container {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.sky {
+  background-image: url(skyline.png);
+  background-size: cover;
+  border: 2px solid black;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 1075px;
+}
+
+.bottom-container {
+  margin-top: 30px;
+}
+/* This is for sytling the top cloud */
+.top-cloud {
+  position: absolute;
+  right: 550px;
+  top: 150px;
+}
+
+/* This is for styling the bottom cloud */
+.bottom-cloud {
+  position: absolute;
+  left: 600px;
+  bottom:450px;
+}
+
+/* This is for styling the mountain */
+.mountain {
+  position: relative;
+  margin-top: 100px;
+top: 55px;
+}
+
+/* Styling the photo of Rio */
+.rio {
+  margin: 0 15px 0 0;
+  border-radius: 50%;
+  width: 25%;
+}
+
+.profile {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+
+.Experience {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.attributes {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row {
+width: 50%;
+ margin: 100px auto 100px auto;
+ text-align: right;
+ line-height: 2;
+
+}
+/* Styling the phot of a handshake */
+.shake {
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  width: 50%;
+  float: left;
+}
+
+.footer-link-1 {
+  clear: both;
+  width: 30px;
+height: 30px;
+}
+
+.btn {
+color:  #0b1934
+}
+
+.mobile {
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 200px;
+}
+
+.student {
+  width: 15%;
+  float: left;
+  margin-right: 40px;
+  margin-bottom: 200px;
+
+}
+
+.medal {
+  float: left;
+  margin: 30px;
+  margin-bottom: 200px;
+}
